@@ -1,0 +1,199 @@
+<div>
+  <h1>{{section.settings.title}}</h1>
+<div class="product-recommendations__lista rec-list" 
+     data-base-url-rec="{{ routes.product_recommendations_url }}" 
+     data-product-handle="{{ section.settings.productHandle }}" >
+
+  
+  <p>  {{section.settings.productHandle}} </p>
+  
+</div>
+
+
+{% schema %}
+  {
+    "name": "Test ajax drop down",
+	"class":"recommended-products",
+    "tag":"section", 
+	"settings": [
+      {
+        "id": "productHandle",
+        "type": "product",
+        "label": "Product (handle) about recommendations"
+        
+      },
+	  {
+		"id":"title",
+        "type":"text",
+		"label":"Product Recommendations Dropdown",
+		"default":"Product Recommendations Dropdown"
+
+		}	
+    ],
+   
+	"presets": [
+      {
+        "category": "Recommended Products Dropdown",
+        "name": "products dropdown"
+	   }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+
+.rec-list {
+background:light-yellow;
+display:grid;
+grid-template-columns: 1fr 1fr;
+margin: 4rem rem;
+}
+
+{% endstylesheet %}
+
+{% javascript %}
+
+/**
+ * Currency Helpers
+ * -----------------------------------------------------------------------------
+ * A collection of useful functions that help with currency formatting
+ *
+ * Current contents
+ * - formatMoney - Takes an amount in cents and returns it as a formatted dollar value.
+ *
+ */
+
+const moneyFormat = '${{amount}}';
+
+/**
+ * Format money values based on your shop currency settings
+ * @param  {Number|string} cents - value in cents or dollar amount e.g. 300 cents
+ * or 3.00 dollars
+ * @param  {String} format - shop money_format setting
+ * @return {String} value - formatted value
+ */
+function formatMoney(cents, format) {
+  if (typeof cents === 'string') {
+    cents = cents.replace('.', '');
+  }
+  let value = '';
+  const placeholderRegex = /\{\{\s*(\w+)\s*\}\}/;
+  const formatString = format || moneyFormat;
+
+  function formatWithDelimiters(
+    number,
+    precision = 2,
+    thousands = ',',
+    decimal = '.'
+  ) {
+    if (isNaN(number) || number == null) {
+      return 0;
+    }
+
+    number = (number / 100.0).toFixed(precision);
+
+    const parts = number.split('.');
+    const dollarsAmount = parts[0].replace(
+      /(\d)(?=(\d\d\d)+(?!\d))/g,
+      `$1${thousands}`
+    );
+    const centsAmount = parts[1] ? decimal + parts[1] : '';
+
+    return dollarsAmount + centsAmount;
+  }
+
+  switch (formatString.match(placeholderRegex)[1]) {
+    case 'amount':
+      value = formatWithDelimiters(cents, 2);
+      break;
+    case 'amount_no_decimals':
+      value = formatWithDelimiters(cents, 0);
+      break;
+    case 'amount_with_comma_separator':
+      value = formatWithDelimiters(cents, 2, '.', ',');
+      break;
+    case 'amount_no_decimals_with_comma_separator':
+      value = formatWithDelimiters(cents, 0, '.', ',');
+      break;
+  }
+
+  return formatString.replace(placeholderRegex, value);
+}
+
+
+  // Find the container that will hold the recommendations
+  var list = document.querySelector(".product-recommendations__lista");
+  // Get the base URL for translated product recommendations
+  var baseUrl = list.dataset.baseUrlRec;
+  // Get the product handle to request the product id
+ 	
+  var productHandle = list.dataset.productHandle;
+
+  console.log('sets...',list.dataset);
+
+  console.log({productHandle});
+
+
+  let productId = "5502354948253";
+  
+  
+  fetch(`/products/${productHandle}.js`).
+	then(res=>res.json()).
+	then(res=>console.log(res))
+	.catch(err=>console.log({err}));
+
+
+  // Create an AJAX request
+  var request = new XMLHttpRequest();
+
+
+ 
+
+  request.open(
+    "GET",
+    baseUrl + ".json?product_id=" + productId + "&limit=4"
+  );
+
+
+
+
+  request.onload = function() {
+    if (request.status === 404 || request.status === 422) {
+      return hideRecommendationsSection();
+    }
+
+    var products = JSON.parse(request.response).products;
+
+    if (products.length === 0) {
+      return hideRecommendationsSection();
+    }
+
+    // Append product recommendations to the DOM.
+    list.innerHTML = products.map(function(product) { return renderProduct(product) }).join("");
+  };
+
+  request.onerror = function() {
+    hideRecommendationsSection();
+  };
+
+  // Send AJAX request
+  request.send();
+
+  function hideRecommendationsSection() {
+    list.style.display = "none";
+  }
+
+  function renderProduct(product) {
+
+    return [
+      '<div>',
+        '<a href="' + product.url + '" class="product__anchor">',
+          '<img class="product__img" src="' + product.featured_image + '" alt="'+ product.title +'"/>',
+          '<p class="product__title">' + product.title + '</p>',
+          '<p class="product__price">' + formatMoney(product.price, window.moneyFormat) + '</p>',
+        '</a>',
+      '</div>'
+    ].join("");
+  }
+
+{% endjavascript %}

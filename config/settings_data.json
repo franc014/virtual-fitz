@@ -1,0 +1,837 @@
+{
+  "current": {
+    "enable_wide_layout": true,
+    "color_topbar_bg": "#403b37",
+    "color_body_bg": "#ffffff",
+    "color_footer_bg": "#ffffff",
+    "color_borders": "#dddddd",
+    "color_primary": "#f25c54",
+    "color_button_primary_text": "#ffffff",
+    "color_topbar_text": "#ffffff",
+    "color_header_text": "#403b37",
+    "color_body_text": "#403b37",
+    "color_footer_text": "#403b37",
+    "color_footer_social_link": "#403b37",
+    "type_base_family": "catamaran_n4",
+    "type_base_size": "16px",
+    "type_header_family": "americana_n4",
+    "type_header_size": "32px",
+    "type_accent_family": "americana_n4",
+    "type_accent_size": "16px",
+    "type_accent_transform": true,
+    "type_accent_spacing": true,
+    "favicon": "shopify:\/\/shop_images\/logo_71ed8ef5-e66a-498b-8c4f-26b91c69d6f9.png",
+    "social_twitter_link": "https:\/\/twitter.com\/jfandradea",
+    "social_facebook_link": "https:\/\/twitter.com\/jfandradea",
+    "social_pinterest_link": "https:\/\/twitter.com\/jfandradea",
+    "social_google_plus_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_rss_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_sharing_style": "normal",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#e42c00",
+    "checkout_button_color": "#e42c00",
+    "checkout_error_color": "#e42c00",
+    "collections_center_grid_link": false,
+    "favicon_enable": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_search_enable": true,
+          "logo": "shopify:\/\/shop_images\/logo_71ed8ef5-e66a-498b-8c4f-26b91c69d6f9.png",
+          "logo_max_width": "80",
+          "nav_menu": "main-menu",
+          "nav_below_logo": true,
+          "left_aligned_logo": false,
+          "show_header_lines": true,
+          "show_announcement": false,
+          "header_text": "Anuncia algo aquí"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "social",
+            "settings": {}
+          },
+          "footer-3": {
+            "type": "newsletter",
+            "settings": {
+              "subtext": "<p>Regístrate para recibir las últimas noticias, ofertas y estilos<\/p>"
+            }
+          },
+          "1597868398379": {
+            "type": "blog",
+            "settings": {
+              "blog": "noticias"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-2",
+          "footer-3",
+          "1597868398379"
+        ],
+        "settings": {
+          "show_methods_of_payment": true
+        }
+      },
+      "slider": {
+        "type": "slider",
+        "blocks": {
+          "slider-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/silviu-beniamin-tofan-xHhtjb0owsw-unsplash.jpg",
+              "alignment": "right center",
+              "overlay_opacity": 52,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "Las botas más cómodas....",
+              "button_label": "Cómpralas ya!",
+              "button_link": "shopify:\/\/collections\/zapatos"
+            }
+          },
+          "slider-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ian-dooley-wzRKn-AjKf4-unsplash_1.jpg",
+              "alignment": "left center",
+              "overlay_opacity": 52,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "Las camisetas más originales",
+              "button_label": "Cómpralas ya!",
+              "button_link": "shopify:\/\/collections\/camisetas-1"
+            }
+          }
+        },
+        "block_order": [
+          "slider-0",
+          "slider-1"
+        ],
+        "settings": {
+          "slider_height": "small",
+          "slider_autorotate": false,
+          "slider_autorotate_rate": 5,
+          "slider_home_transition": "fade",
+          "text_size": "medium"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Colección destacada",
+          "featured_collection": "frontpage",
+          "num_per_row": 4,
+          "num_rows": 1,
+          "vendor_enable": false,
+          "show_sale_circle": false,
+          "show_sold_out_circle": false,
+          "center_grid_link": false
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "settings": {
+          "title": "Lista de colecciones"
+        }
+      },
+      "feature-row-0": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/man-rolls-up-sleeves.jpg",
+          "layout": "right",
+          "title": "Roberto Sánchez",
+          "text": "<p>Realmente me encuentro feliz usando ropa de Virtual Fitz. Además que me llega a domicilio y no tengo problemas con las tallas. Totalmente recomendado.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-row-1": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/female-model-leans-against-a-wall-covered-in-cookie-wallpaper.jpg",
+          "layout": "left",
+          "title": "Lorena Servantes",
+          "text": "<p>Virtual Fits es la mejor tienda de moda que he visitado. Y ahora recibo mi ropa en mi casa. Definitivamente lo mejor para vestirte bien.<\/p>",
+          "button_label": ""
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "heading": "Nuestra tienda",
+          "address": "<p>123 Fake St.<\/p><p>Quito, Ecuador<\/p><p>Lun - Vie, 10 a.m. - 9 p.m. <br\/> Sábados, de 11 am a 09 pm <br\/> Domingos, de 11 am a 05 pm<\/p>",
+          "map_address": "80 Spadina Ave, Toronto",
+          "button": "Ver mapa",
+          "show_pin": true,
+          "api_key": "",
+          "image": "shopify:\/\/shop_images\/burgess-milner-OYYE4g-I5ZQ-unsplash_1.jpg",
+          "position": "center center"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_vendor_enable": true,
+          "product_quantity_enable": true,
+          "product_image_zoom_type": "zoom-in",
+          "product_thumbnails_position": "below",
+          "show_extra_tab": false,
+          "extra_tab_content": "",
+          "social_sharing": true,
+          "enable_payment_button": true,
+          "add_to_cart_width": "small"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_enable": true,
+          "show_sale_circle": true,
+          "show_sold_out_circle": true,
+          "sort_enable": true,
+          "tags_enable": true,
+          "center_grid_link": false
+        }
+      },
+      "1597357526790": {
+        "type": "rich-text",
+        "settings": {
+          "section_title": "Tu moda on line llega a tu hogar",
+          "text": "<p>LLevamos a tu lugar nuestra tienda de moda. Para que no dejes de vestir bien ni hoy, ni mañana, ni nunca. Virtual Fits es tu mejor aliado para que te mantengas con la vestimenta adecuada para cada ocasión y en todas las estaciones. Bienvenido!<\/p>",
+          "text_size": "large"
+        }
+      },
+      "1597865860011": {
+        "type": "rich-text",
+        "settings": {
+          "section_title": "Testimonios",
+          "text": "<p>Muchos clientes que confían en nosotros...<\/p>",
+          "text_size": "large"
+        }
+      },
+      "160692058378704478": {
+        "type": "recommended-products",
+        "settings": {
+          "product": "5502354948253",
+          "title": "Recomendaciones de producto"
+        }
+      },
+      "1606931527fcf63211": {
+        "type": "recommended-procuts-with-select",
+        "settings": {
+          "productHandle": "botas-hombre-off-road",
+          "title": "Product Recommendations Dropdown"
+        }
+      }
+    },
+    "content_for_index": [
+      "slider",
+      "1597357526790",
+      "featured-collection",
+      "1597865860011",
+      "feature-row-0",
+      "feature-row-1",
+      "160692058378704478",
+      "1606931527fcf63211",
+      "map"
+    ]
+  },
+  "presets": {
+    "Vintage": {
+      "color_topbar_bg": "#1b1e2f",
+      "color_body_bg": "#faf9f7",
+      "color_footer_bg": "#1b1e2f",
+      "color_borders": "#faf9f7",
+      "color_primary": "#d77e6a",
+      "color_button_primary_text": "#ffffff",
+      "color_topbar_text": "#ffffff",
+      "color_header_text": "#1b1e2f",
+      "color_body_text": "#1b1e2f",
+      "color_footer_text": "#f2f0ee",
+      "color_footer_social_link": "#f2f0ee",
+      "type_base_family": "helvetica_n4",
+      "type_base_size": "16px",
+      "type_header_family": "crimson_text_n7",
+      "type_header_size": "30px",
+      "type_accent_family": "pt_sans_n7",
+      "type_accent_size": "14px",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_sharing_style": "normal",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Arvo",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#0081a3",
+      "checkout_button_color": "#0081a3",
+      "checkout_error_color": "#e42c00",
+      "collections_center_grid_link": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_search_enable": true,
+            "logo_max_width": "90",
+            "nav_below_logo": false,
+            "left_aligned_logo": true,
+            "show_header_lines": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "social",
+              "settings": {}
+            },
+            "footer-3": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+            "show_methods_of_payment": true
+          }
+        },
+        "slider": {
+          "type": "slider",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0",
+            "slider-1",
+            "slider-2"
+          ],
+          "settings": {
+            "slider_autorotate": false,
+            "slider_autorotate_rate": 5,
+            "slider_home_transition": "fade"
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "title": "Popular this week",
+            "featured_collection": "frontpage",
+            "num_per_row": 4,
+            "num_rows": 2,
+            "vendor_enable": false,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "center_grid_link": false
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "product_thumbnails_position": "right",
+            "show_extra_tab": false,
+            "extra_tab_content": "",
+            "social_sharing": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_enable": true,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "sort_enable": true,
+            "tags_enable": true,
+            "center_grid_link": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "article_author_enable": false,
+            "social_sharing": false
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product_vendor_enable": false,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "social_sharing": false
+          }
+        },
+        "featured-blog": {
+          "type": "featured-blog",
+          "settings": {
+            "title": "News",
+            "blog": "news",
+            "post_limit": 2,
+            "blog_show_date": true,
+            "blog_show_author": false,
+            "blog_show_image": false,
+            "blog_show_excerpt": true,
+            "show_view_all": false
+          }
+        }
+      },
+      "content_for_index": [
+        "slider",
+        "featured-blog",
+        "featured-collection",
+        "featured-product"
+      ]
+    },
+    "Fashion": {
+      "enable_wide_layout": true,
+      "color_body_bg": "#ffffff",
+      "color_footer_bg": "#ffffff",
+      "color_borders": "#dddddd",
+      "color_topbar_bg": "#403b37",
+      "color_topbar_text": "#ffffff",
+      "color_primary": "#f25c54",
+      "color_button_primary_text": "#ffffff",
+      "color_header_text": "#403b37",
+      "color_body_text": "#403b37",
+      "color_footer_text": "#403b37",
+      "color_footer_social_link": "#403b37",
+      "type_base_family": "pt_sans_n4",
+      "type_base_size": "16px",
+      "type_header_family": "optima_nova_n7",
+      "type_header_size": "32px",
+      "type_accent_family": "optima_nova_n4",
+      "type_accent_size": "16px",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "favicon_enable": false,
+      "social_sharing_style": "normal",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#e42c00",
+      "checkout_button_color": "#e42c00",
+      "checkout_error_color": "#e42c00",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_search_enable": true,
+            "logo_max_width": "450",
+            "nav_below_logo": false,
+            "left_aligned_logo": true,
+            "show_header_lines": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu_title": "Links",
+                "menu": "footer"
+              }
+            },
+            "footer-1": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+            "footer-2": {
+              "type": "social",
+              "settings": {}
+            },
+            "footer-3": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+            "show_methods_of_payment": true
+          }
+        },
+        "slider": {
+          "type": "slider",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0",
+            "slider-1"
+          ],
+          "settings": {
+            "slider_autorotate": false,
+            "slider_autorotate_rate": 5,
+            "slider_home_transition": "fade"
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "featured_collection": "frontpage",
+            "num_per_row": 4,
+            "num_rows": 1
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "settings": {}
+        },
+        "feature-row-0": {
+          "type": "feature-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "feature-row-1": {
+          "type": "feature-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "map": {
+          "type": "map",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": true,
+            "product_image_zoom_type": "zoom-in",
+            "product_thumbnails_position": "below",
+            "social_sharing": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_enable": true,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "sort_enable": true,
+            "tags_enable": true,
+            "center_grid_link": false
+          }
+        }
+      },
+      "content_for_index": [
+        "slider",
+        "featured-collection",
+        "feature-row-0",
+        "feature-row-1",
+        "map"
+      ]
+    },
+    "Modern": {
+      "enable_wide_layout": false,
+      "color_topbar_bg": "#cbd5cc",
+      "color_body_bg": "#ffffff",
+      "color_footer_bg": "rgba(0,0,0,0)",
+      "color_borders": "#ebebeb",
+      "color_primary": "#59756f",
+      "color_button_primary_text": "#ffffff",
+      "color_topbar_text": "#000000",
+      "color_header_text": "#000000",
+      "color_body_text": "#000000",
+      "color_footer_text": "#000000",
+      "color_footer_social_link": "#59756f",
+      "type_base_family": "pt_serif_n4",
+      "type_base_size": "17px",
+      "type_header_family": "source_sans_pro_n7",
+      "type_header_size": "32px",
+      "type_accent_family": "source_sans_pro_n7",
+      "type_accent_size": "16px",
+      "type_accent_transform": false,
+      "type_accent_spacing": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_sharing_style": "normal",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#767676",
+      "checkout_button_color": "#e42c00",
+      "checkout_error_color": "#e42c00",
+      "collections_center_grid_link": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_search_enable": true,
+            "logo_max_width": "60",
+            "nav_below_logo": true,
+            "left_aligned_logo": false,
+            "show_header_lines": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "social",
+              "settings": {}
+            },
+            "footer-3": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+            "show_methods_of_payment": true
+          }
+        },
+        "slider": {
+          "type": "slider",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-2": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-3": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0",
+            "slider-1",
+            "slider-2",
+            "slider-3"
+          ],
+          "settings": {
+            "slider_autorotate": false,
+            "slider_autorotate_rate": 5,
+            "slider_home_transition": "fade"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "product_thumbnails_position": "right",
+            "show_extra_tab": false,
+            "extra_tab_content": "",
+            "social_sharing": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "article_author_enable": false,
+            "social_sharing": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_enable": false,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "sort_enable": true,
+            "tags_enable": true,
+            "center_grid_link": false
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1",
+            "collection-list-2",
+            "collection-list-3"
+          ],
+          "settings": {
+            "title": "Collection list"
+          }
+        },
+        "collection-list-1": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-1-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection-list-1-0",
+            "collection-list-1-1",
+            "collection-list-1-2",
+            "collection-list-1-3"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "color_bg": "#eaebea"
+          }
+        }
+      },
+      "content_for_index": [
+        "slider",
+        "collection-list",
+        "collection-list-1",
+        "newsletter"
+      ]
+    }
+  }
+}
